@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyFavMovie - список збережених фільмів</string>
+    <string name="add_movie_main_btn">Додати фільм</string>
+    <string name="search_movie_main_btn">Знайти фільм</string>
+    <string name="movie_list_main_btn">Список фільмів</string>
+    <string name="name">Ім\'я:</string>
+    <string name="description">Опис:</string>
+    <string name="mark">Оцінка:</string>
+    <string name="genre">Жанр:</string>
+    <string name="add_movie_btn_name">Додати фільм</string>
+    <string name="movie_search_name">Назва фільму</string>
+    <string name="search_btn_name">Знайти</string>
+    <string name="result_name">Ім\'я:</string>
+    <string name="result_desc">Опис:</string>
+    <string name="result_mark">Оцінка:</string>
+    <string name="result_genre">Жанр:</string>
+    <string name="movie_name_in_list">Назва фільму:</string>
+    <string name="genre_in_list">Жанр фільму:</string>
+    <string name="mark_in_list">Оцінка фільму:</string>
+    <string name="description_in_list">Опис фільму:</string>
+    <string name="author_data_faculty_value">Інформатика</string>
+    <string name="author_data_faculty">Факультет:</string>
+    <string name="author_data_university">Університет:</string>
+    <string name="author_data_name">Ім\'я і прізвище:</string>
+    <string name="author_data_title">Дані автора</string>
+    <string name="movie_count_second_text">збережених фільмів</string>
+    <string name="movie_count_first_text">Зараз маєш</string>
+    <string name="delete_movie_btn">Видалити фільм</string>
+    <string name="movie_name_to_delete">Назва фільму</string>
+    <string name="delete_movie_main">Видалити фільм</string>
+    <string name="author_main">Автор</string>
+    <string name="save_author_data_btn">Зберегти</string>
+    <string name="change_author_data_title">Зміна даних автора</string>
+    <string name="author_data_change_btn">Змінити дані</string>
+    <string name="add_movie_title">Додати фільм</string>
+    <string name="deleting_movie_title">Видалення фільму</string>
+    <string name="searching_movies_title">Пошук фільму</string>
+    <string name="information_about_movie_title">Інформація про фільм</string>
+</resources>

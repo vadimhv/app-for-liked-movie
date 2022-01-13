@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyFavMovie - lista zachowanych filmów</string>
+    <string name="add_movie_main_btn">Dodać film</string>
+    <string name="search_movie_main_btn">Odnaleźć film</string>
+    <string name="movie_list_main_btn">Lista filmów</string>
+    <string name="name">Imię:</string>
+    <string name="description">Opis:</string>
+    <string name="mark">Ocena:</string>
+    <string name="genre">Gatunek:</string>
+    <string name="add_movie_btn_name">Dodać film</string>
+    <string name="movie_search_name">Nazwa filmu</string>
+    <string name="search_btn_name">Odnaleźć</string>
+    <string name="result_name">Imię:</string>
+    <string name="result_desc">Opis:</string>
+    <string name="result_mark">Ocena:</string>
+    <string name="result_genre">Gatunek:</string>
+    <string name="movie_name_in_list">Nazwa filmu:</string>
+    <string name="genre_in_list">Gatunek filmu:</string>
+    <string name="mark_in_list">Ocena filmu:</string>
+    <string name="description_in_list">Opis filmu:</string>
+    <string name="author_data_faculty_value">Informatyka</string>
+    <string name="author_data_faculty">Wydział:</string>
+    <string name="author_data_university">Uniwersytet:</string>
+    <string name="author_data_name">Imię i nazwisko:</string>
+    <string name="author_data_title">Dane autora</string>
+    <string name="movie_count_second_text">zachowanych filmów</string>
+    <string name="movie_count_first_text">Masz teraz</string>
+    <string name="delete_movie_btn">Usunąć film</string>
+    <string name="movie_name_to_delete">Nazwa filmu</string>
+    <string name="delete_movie_main">Usunąć film</string>
+    <string name="author_main">Autor</string>
+    <string name="author_data_change_btn">Zmienić dane</string>
+    <string name="change_author_data_title">Zmiana danych authora</string>
+    <string name="save_author_data_btn">Zapisać</string>
+    <string name="add_movie_title">Dodać film</string>
+    <string name="deleting_movie_title">Usuwanie filmu</string>
+    <string name="searching_movies_title">Wyszukiwanie filmu</string>
+    <string name="information_about_movie_title">Informacja o filmie</string>
+</resources>
