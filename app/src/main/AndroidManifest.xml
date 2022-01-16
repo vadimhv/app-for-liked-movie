@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FilmProjectKotlin">
         <activity
+            android:name=".MovieCalculator"
+            android:exported="false" />
+        <activity
             android:name=".DeleteMovie"
             android:exported="false" />
         <activity

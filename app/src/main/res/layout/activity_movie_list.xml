@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".MovieList"
     android:background="#ff8a63">
-
     <!--recycler view for displaying our courses-->
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/idRVMovies"

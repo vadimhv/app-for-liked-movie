@@ -4,10 +4,10 @@
     <string name="add_movie_main_btn">Dodać film</string>
     <string name="search_movie_main_btn">Odnaleźć film</string>
     <string name="movie_list_main_btn">Lista filmów</string>
-    <string name="name">Imię:</string>
-    <string name="description">Opis:</string>
-    <string name="mark">Ocena:</string>
-    <string name="genre">Gatunek:</string>
+    <string name="name">Imię</string>
+    <string name="description">Opis</string>
+    <string name="mark">Ocena</string>
+    <string name="genre">Gatunek</string>
     <string name="add_movie_btn_name">Dodać film</string>
     <string name="movie_search_name">Nazwa filmu</string>
     <string name="search_btn_name">Odnaleźć</string>
@@ -20,9 +20,9 @@
     <string name="mark_in_list">Ocena filmu:</string>
     <string name="description_in_list">Opis filmu:</string>
     <string name="author_data_faculty_value">Informatyka</string>
-    <string name="author_data_faculty">Wydział:</string>
-    <string name="author_data_university">Uniwersytet:</string>
-    <string name="author_data_name">Imię i nazwisko:</string>
+    <string name="author_data_faculty">Wydział</string>
+    <string name="author_data_university">Uniwersytet</string>
+    <string name="author_data_name">Imię i nazwisko</string>
     <string name="author_data_title">Dane autora</string>
     <string name="movie_count_second_text">zachowanych filmów</string>
     <string name="movie_count_first_text">Masz teraz</string>
@@ -37,4 +37,13 @@
     <string name="deleting_movie_title">Usuwanie filmu</string>
     <string name="searching_movies_title">Wyszukiwanie filmu</string>
     <string name="information_about_movie_title">Informacja o filmie</string>
+    <string name="calculator_main_btn">Kalkulator</string>
+    <string name="movie_calculator_title">Kalkulator filmów</string>
+    <string name="movie_calculator_text">Możesz obliczyć, ile filmów możesz oglądać w liczbie dni wprowadzonych w wyznaczonym czasie dziennie</string>
+    <string name="days_calc">Dni</string>
+    <string name="time_on_the_day_calc">Czas w dzień (godzin)</string>
+    <string name="calc_btn_name">Policz</string>
+    <string name="calc_result_first_text">"Ty możesz oglądnąć "</string>
+    <string name="calc_result_second_text">" film(ów) w tych dniach"</string>
+    <string name="movie_list_title">Lista filmów</string>
 </resources>

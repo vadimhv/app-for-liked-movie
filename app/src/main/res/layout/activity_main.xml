@@ -38,6 +38,15 @@
                 android:textColor="#fff" />
 
             <Button
+                android:id="@+id/deleteMovieBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#d14011"
+                android:text="@string/delete_movie_main"
+                android:textColor="#fff" />
+
+            <Button
                 android:id="@+id/movieListMainBtn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -47,12 +56,12 @@
                 android:textColor="#fff" />
 
             <Button
-                android:id="@+id/deleteMovieBtn"
+                android:id="@+id/movieCalculatorMainBtn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:backgroundTint="#d14011"
-                android:text="@string/delete_movie_main"
+                android:text="@string/calculator_main_btn"
                 android:textColor="#fff" />
 
             <Button

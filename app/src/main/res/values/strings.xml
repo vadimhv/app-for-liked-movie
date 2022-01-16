@@ -3,10 +3,10 @@
     <string name="add_movie_main_btn">Add movie</string>
     <string name="search_movie_main_btn">Search movie</string>
     <string name="movie_list_main_btn">Movie list</string>
-    <string name="name">Name:</string>
-    <string name="description">Description:</string>
-    <string name="mark">Mark:</string>
-    <string name="genre">Genre:</string>
+    <string name="name">Name</string>
+    <string name="description">Description</string>
+    <string name="mark">Mark</string>
+    <string name="genre">Genre</string>
     <string name="add_movie_btn_name">Add movie</string>
     <string name="movie_search_name">Movie name</string>
     <string name="search_btn_name">Search</string>
@@ -25,11 +25,11 @@
     <string name="movie_count_first_text">Actually you have</string>
     <string name="movie_count_second_text">saved movies</string>
     <string name="author_data_title">Author data</string>
-    <string name="author_data_name">Name and last name:</string>
+    <string name="author_data_name">Name and last name</string>
     <string name="author_data_name_value" translatable="false">Vadym Hvozditskyi</string>
-    <string name="author_data_university">University:</string>
+    <string name="author_data_university">University</string>
     <string name="author_data_university_value" translatable="false">KUL</string>
-    <string name="author_data_faculty">Faculty:</string>
+    <string name="author_data_faculty">Faculty</string>
     <string name="author_data_faculty_value">Informatics</string>
     <string name="author_data_change_btn">Change data</string>
     <string name="change_author_data_title">Change author data</string>
@@ -38,4 +38,14 @@
     <string name="deleting_movie_title">Deleting movie</string>
     <string name="searching_movies_title">Searching movies</string>
     <string name="information_about_movie_title">Information about movie</string>
+    <string name="calculator_main_btn">Calculator</string>
+    <string name="movie_calculator_title">Movie calculator</string>
+    <string name="movie_calculator_text">You can calculate how many movies you can watch in the number of days entered within the specified time per day</string>
+    <string name="days_calc">Days</string>
+    <string name="time_on_the_day_calc">Time on the day (hours)</string>
+    <string name="calc_btn_name">Calculate</string>
+    <string name="calc_result_first_text">You can review </string>
+    <string name="calc_result_count" translatable="false">0</string>
+    <string name="calc_result_second_text">" movie(s) during this day(s)"</string>
+    <string name="movie_list_title">Movie list</string>
 </resources>

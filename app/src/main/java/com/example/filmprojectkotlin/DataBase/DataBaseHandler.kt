@@ -7,7 +7,7 @@ import android.database.sqlite.SQLiteDatabase
 import android.database.sqlite.SQLiteOpenHelper
 import com.example.filmprojectkotlin.DAO.Movie
 
-class DataBaseHelper(
+class DataBaseHandler(
     context: Context,
     name: String?,
     factory: SQLiteDatabase.CursorFactory?,
@@ -80,31 +80,21 @@ class DataBaseHelper(
         return movie
     }
 
-    // we have created a new method for reading all the courses.
     fun getAllAddedMovies(): ArrayList<Movie> {
-        // on below line we are creating a
-        // database for reading our database.
         val db: SQLiteDatabase = this.readableDatabase;
 
-        // on below line we are creating a cursor with query to read data from database.
         val cursorCourses: Cursor = db.rawQuery("SELECT * FROM " + TABLE_MOVIES, null);
 
-        // on below line we are creating a new array list.
         val movieArrayList: ArrayList<Movie> = ArrayList<Movie>();
 
-        // moving our cursor to first position.
         if (cursorCourses.moveToFirst()) {
             do {
-                // on below line we are adding the data from cursor to our array list.
                 movieArrayList.add(Movie(cursorCourses.getString(1),
                     cursorCourses.getString(2),
                     cursorCourses.getString(3).toDouble(),
                     cursorCourses.getString(4)));
             } while (cursorCourses.moveToNext());
-            // moving our cursor to next.
         }
-        // at last closing our cursor
-        // and returning our array list.
         cursorCourses.close();
         return movieArrayList;
     }

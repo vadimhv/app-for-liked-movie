@@ -2,7 +2,7 @@
 <project version="4">
   <component name="DBNavigator.Project.DataEditorManager">
     <record-view-column-sorting-type value="BY_INDEX" />
-    <value-preview-text-wrapping value="true" />
+    <value-preview-text-wrapping value="false" />
     <value-preview-pinned value="false" />
   </component>
   <component name="DBNavigator.Project.DataExportManager">
@@ -32,11 +32,15 @@
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="f8bdb89a-f5f6-4168-91de-edd419b639af">
-      <console name="Connection" type="STANDARD" schema="main" session="Main"><![CDATA[select * from movies]]></console>
+      <console name="Connection" type="STANDARD" schema="main" session="Main"><![CDATA[select * from movies
+
+delete from movies]]></console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
-    <open-files />
+    <open-files>
+      <object connection-id="f8bdb89a-f5f6-4168-91de-edd419b639af" object-ref="consoles/Connection" />
+    </open-files>
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
     <connection id="f8bdb89a-f5f6-4168-91de-edd419b639af" />

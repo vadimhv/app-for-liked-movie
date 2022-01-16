@@ -4,10 +4,10 @@
     <string name="add_movie_main_btn">Додати фільм</string>
     <string name="search_movie_main_btn">Знайти фільм</string>
     <string name="movie_list_main_btn">Список фільмів</string>
-    <string name="name">Ім\'я:</string>
-    <string name="description">Опис:</string>
-    <string name="mark">Оцінка:</string>
-    <string name="genre">Жанр:</string>
+    <string name="name">Ім\'я</string>
+    <string name="description">Опис</string>
+    <string name="mark">Оцінка</string>
+    <string name="genre">Жанр</string>
     <string name="add_movie_btn_name">Додати фільм</string>
     <string name="movie_search_name">Назва фільму</string>
     <string name="search_btn_name">Знайти</string>
@@ -20,9 +20,9 @@
     <string name="mark_in_list">Оцінка фільму:</string>
     <string name="description_in_list">Опис фільму:</string>
     <string name="author_data_faculty_value">Інформатика</string>
-    <string name="author_data_faculty">Факультет:</string>
-    <string name="author_data_university">Університет:</string>
-    <string name="author_data_name">Ім\'я і прізвище:</string>
+    <string name="author_data_faculty">Факультет</string>
+    <string name="author_data_university">Університет</string>
+    <string name="author_data_name">Ім\'я і прізвище</string>
     <string name="author_data_title">Дані автора</string>
     <string name="movie_count_second_text">збережених фільмів</string>
     <string name="movie_count_first_text">Зараз маєш</string>
@@ -37,4 +37,13 @@
     <string name="deleting_movie_title">Видалення фільму</string>
     <string name="searching_movies_title">Пошук фільму</string>
     <string name="information_about_movie_title">Інформація про фільм</string>
+    <string name="calculator_main_btn">Калькулятор</string>
+    <string name="movie_calculator_title">Калькулятор фільмів</string>
+    <string name="movie_calculator_text">Ви можете розрахувати, скільки фільмів можете подивитися за кількість днів,  протягом зазначеного часу на день</string>
+    <string name="days_calc">Дні</string>
+    <string name="time_on_the_day_calc">Час в день (годин)</string>
+    <string name="calc_btn_name">Порахуй</string>
+    <string name="calc_result_first_text">"Ти можеш переглянути "</string>
+    <string name="calc_result_second_text">" фільм(ів) протягом цих днів"</string>
+    <string name="movie_list_title">Список фільмів</string>
 </resources>

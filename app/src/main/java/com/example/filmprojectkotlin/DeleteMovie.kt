@@ -5,9 +5,8 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
-import android.widget.EditText
 import android.widget.Toast
-import com.example.filmprojectkotlin.DataBase.DataBaseHelper
+import com.example.filmprojectkotlin.DataBase.DataBaseHandler
 import com.google.android.material.textfield.TextInputLayout
 
 class DeleteMovie : AppCompatActivity() {
@@ -34,7 +33,7 @@ class DeleteMovie : AppCompatActivity() {
     private fun deletePlayer() {
         val movieName = findViewById<TextInputLayout>(R.id.movieNameToDelete)
 
-        val dataBaseHandler = DataBaseHelper(this, null, null, 1)
+        val dataBaseHandler = DataBaseHandler(this, null, null, 1)
 
         val result = dataBaseHandler.deletePlayer(movieName.editText?.text.toString())
 

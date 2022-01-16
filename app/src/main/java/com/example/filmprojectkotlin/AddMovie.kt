@@ -5,10 +5,9 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
-import android.widget.EditText
 import android.widget.Toast
 import com.example.filmprojectkotlin.DAO.Movie
-import com.example.filmprojectkotlin.DataBase.DataBaseHelper
+import com.example.filmprojectkotlin.DataBase.DataBaseHandler
 import com.google.android.material.textfield.TextInputLayout
 
 class AddMovie : AppCompatActivity() {
@@ -39,7 +38,7 @@ class AddMovie : AppCompatActivity() {
         val movieMark = findViewById<TextInputLayout>(R.id.addMarkInput);
         val movieGenre = findViewById<TextInputLayout >(R.id.addGenreInput);
 
-        val dataBaseHelper = DataBaseHelper(this, null, null, 1);
+        val dataBaseHelper = DataBaseHandler(this, null, null, 1);
 
         val movie = Movie(movieName.editText?.text.toString(), movieDesc.editText?.text.toString(), movieMark.editText?.text.toString().toDouble(), movieGenre.editText?.text.toString());
 
